@@ -47,7 +47,7 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
           <DemoPaper square={false}>This page is for additional information about the cookie's nutritional facts</DemoPaper>
         </Stack>
         <Stack direction="row" spacing={2}>
-          <DemoPaper square={false}>If your looking to donate please click {linkForDonate}</DemoPaper>
+          <DemoPaper square={false}>If your looking to donate to the girl scouts, please click here: {linkForDonate}. This is a link to the offical girl scouts page.</DemoPaper>
         </Stack>
       </Box>
 
@@ -63,22 +63,22 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
       <br></br><br></br><br></br>
       <Grid container spacing={4} gap={3}>
       <Grid xs={3} sx={{backgroundColor: '#dc174d'}}>
-          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={thinMints} alt='Thin Mints picture' style={{ width: '100%', height: 'auto' }}/>Serving Size: 4 Cookies | 160 Calories | 7g Fat | 22g Carbs | 10g Sugar |  1g Protein</Item>
+          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={thinMints} alt='Thin Mints picture' style={{ width: '100%', height: 'auto' }}/>Thin Mints: Serving Size: 4 Cookies | 160 Calories | 7g Fat | 22g Carbs | 10g Sugar |  1g Protein</Item>
         </Grid>
         <Grid xs={3} sx={{backgroundColor: '#DCD317'}}>
-          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={adventureful} alt='Adventurefuls cookie picture' style={{ width: '100%', height: 'auto' }}/>Serving Size: 2 Cookies | 130 Calories | 6g Fat | 18g Carbs | 11g Sugar |  &lt;1g Protein</Item>
+          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={adventureful} alt='Adventurefuls cookie picture' style={{ width: '100%', height: 'auto' }}/>Adventurefuls: Serving Size: 2 Cookies | 130 Calories | 6g Fat | 18g Carbs | 11g Sugar |  &lt;1g Protein</Item>
         </Grid>
         <Grid xs={3} sx={{backgroundColor: '#17DC42'}}>
-          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={carmelCookie} alt='Carmel Cookie cookie picture' style={{ width: '100%', height: 'auto' }}/>Serving Size: 3 Cookies | 160 Calories | 7g Fat | 22g Carbs | 9g Sugar |  3g Protein</Item>
+          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={carmelCookie} alt='Carmel Cookie cookie picture' style={{ width: '100%', height: 'auto' }}/>Carmel Cookie: Serving Size: 3 Cookies | 160 Calories | 7g Fat | 22g Carbs | 9g Sugar |  3g Protein</Item>
         </Grid>
         <Grid xs={3} sx={{backgroundColor: '#174DDC'}}>
-          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={peanutButter} alt='Peanut Butter cookie picture' style={{ width: '100%', height: 'auto' }}/>Serving Size: 3 Cookies | 160 Calories | 7g Fat | 22g Carbs | 11g Sugar |  3g Protein</Item>
+          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={peanutButter} alt='Peanut Butter cookie picture' style={{ width: '100%', height: 'auto' }}/>Peanut Butter cookie: Serving Size: 3 Cookies | 160 Calories | 7g Fat | 22g Carbs | 11g Sugar |  3g Protein</Item>
         </Grid>
         <Grid xs={3} sx={{backgroundColor: '#B017DC'}}>
-          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={trefold} alt='Trefoils cookie picture' style={{ width: '100%', height: 'auto' }}/>Serving Size: 4 Cookies | 120 Calories | 4.5g Fat | 19g Carbs | 6g Sugar |  1g Protein</Item>
+          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={trefold} alt='Trefoils cookie picture' style={{ width: '100%', height: 'auto' }}/>Trefoils cookie: Serving Size: 4 Cookies | 120 Calories | 4.5g Fat | 19g Carbs | 6g Sugar |  1g Protein</Item>
         </Grid>
         <Grid xs={3} sx={{backgroundColor: '#271515'}}>
-          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={samoas} alt='Samoas cookie picture' style={{ width: '100%', height: 'auto' }}/>Serving Size: 2 Cookies | 150 Calories | 8g Fat | 18g Carbs | 11g Sugar |  1g Protein</Item>
+          <Item sx={{backgroundColor: '#C7CDCE'}}><img src={samoas} alt='Samoas cookie picture' style={{ width: '100%', height: 'auto' }}/>Samoas: Serving Size: 2 Cookies | 150 Calories | 8g Fat | 18g Carbs | 11g Sugar |  1g Protein</Item>
         </Grid>
       </Grid>
     </Box>

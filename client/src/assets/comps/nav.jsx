@@ -13,11 +13,11 @@ function nav() {
           <Button component={Link} to='/' sx={{ color: '#FFFFFF' }}>
             Home
           </Button>
-          <Button component={Link} to='/scouts' sx={{ color: '#FFFFFF' }}>
-            Girl Scouts
+          <Button component={Link} to='/signup' sx={{ color: '#FFFFFF' }}>
+            Sign Up
           </Button>
-          <Button component={Link} to='/sales' sx={{ color: '#FFFFFF' }}>
-            Sales
+          <Button component={Link} to='/login' sx={{ color: '#FFFFFF' }}>
+            Login
           </Button>
         </Toolbar>
       </Container>

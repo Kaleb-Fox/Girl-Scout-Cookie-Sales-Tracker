@@ -31,8 +31,6 @@ class Sale(db.Model, SerializerMixin):
     priceperbox = db.Column(db.Integer)
     location_id = db.Column(db.Integer, db.ForeignKey('locations.id'))
     scout_id = db.Column(db.Integer, db.ForeignKey('scouts.id'))
-    
-
     sale_for_location = db.relationship("Location", back_populates="location_sale")
     sale_for_scout = db.relationship("Scout", back_populates="scout_sale")
     serialize_rules = ('-sale_for_location.location_sales', "-sale_for_scout.scout_sale")
