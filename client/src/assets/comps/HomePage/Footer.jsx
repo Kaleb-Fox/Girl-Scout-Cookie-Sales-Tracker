@@ -8,7 +8,7 @@ import Link from '@mui/material/Link';
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
-      <Link color="inherit" href="https://github.com/killerfox007">
+      <Link color="inherit" href="https://github.com/Kaleb-Fox">
         My GitHub
       </Link>{' '}
     </Typography>
